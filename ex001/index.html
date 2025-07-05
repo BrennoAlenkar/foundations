@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brenno Alencar">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <h1>JavaScript</h1>
+
+    <script>
+        let dia = new Date;
+        let anoAtual = dia.getFullYear();
+        let nome = prompt("Qual é seu nome?");
+        let idade = Number(prompt(nome + " é sua idade?"));
+        let anoNascimento = anoAtual - idade;
+        alert("É um prazer em te conhecer " + nome + "!" + " você tem " + idade + " anos de idade? está muito novo kkk então você nasceu ano de " + anoNascimento + ".");
+    </script>
+
+</body>
+
+</html>
